@@ -1,0 +1,286 @@
+.portfolio-page{
+
+  background:#f1f5f9;
+  min-height:100vh;
+  padding:90px 60px;
+
+}
+
+
+/* HERO */
+
+.portfolio-hero{
+
+  max-width:1200px;
+  margin:auto;
+
+  background:white;
+
+  border-radius:30px;
+
+  padding:70px;
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:space-between;
+
+  box-shadow:0 20px 40px rgba(0,0,0,0.08);
+
+}
+
+
+.portfolio-text{
+
+  width:50%;
+
+}
+
+
+.portfolio-text h1{
+
+  font-size:52px;
+
+  color:#1e40af;
+
+  margin-bottom:15px;
+
+}
+
+
+.portfolio-text h2{
+
+  font-size:32px;
+
+  color:#334155;
+
+}
+
+
+.portfolio-text p{
+
+  font-size:18px;
+
+  color:#64748b;
+
+  margin:20px 0;
+
+}
+
+
+
+.profile-box img{
+
+  width:300px;
+
+  height:300px;
+
+  border-radius:50%;
+
+  box-shadow:0 15px 35px rgba(0,0,0,0.2);
+
+}
+
+
+
+
+
+.resume-btn{
+
+  background:#2563eb;
+
+  color:white;
+
+  padding:15px 35px;
+
+  border-radius:12px;
+
+  text-decoration:none;
+
+}
+
+
+
+
+/* COMMON SECTIONS */
+
+
+.portfolio-about,
+.portfolio-skills{
+
+  max-width:1200px;
+
+  margin:60px auto;
+
+  background:white;
+
+  padding:40px;
+
+  border-radius:25px;
+
+  box-shadow:0 15px 35px rgba(0,0,0,0.08);
+
+}
+
+
+.portfolio-about h2,
+.portfolio-skills h2{
+
+  font-size:32px;
+
+  color:#1e40af;
+
+}
+
+
+
+
+
+/* SKILLS */
+
+.skills{
+
+ display:flex;
+
+ gap:20px;
+
+ flex-wrap:wrap;
+
+ margin-top:25px;
+
+}
+
+
+.skills span{
+
+ background:#2563eb;
+
+ color:white;
+
+ padding:12px 25px;
+
+ border-radius:30px;
+
+}
+
+
+
+
+
+/* PROJECTS */
+
+.portfolio-projects{
+
+ max-width:1200px;
+
+ margin:60px auto;
+
+ display:grid;
+
+ grid-template-columns:repeat(2,1fr);
+
+ gap:30px;
+
+}
+
+
+
+.portfolio-project-card{
+
+ background:white;
+
+ padding:35px;
+
+ border-radius:25px;
+
+ box-shadow:0 15px 35px rgba(0,0,0,0.1);
+
+ transition:.3s;
+
+}
+
+
+
+.portfolio-project-card:hover{
+
+ transform:translateY(-10px);
+
+}
+
+
+
+.portfolio-project-card h3{
+
+ color:#2563eb;
+
+ font-size:25px;
+
+}
+
+
+
+.portfolio-project-card p{
+
+ color:#64748b;
+
+ font-size:17px;
+
+}
+
+
+
+
+
+@media(max-width:800px){
+
+.portfolio-hero{
+
+ flex-direction:column;
+
+ text-align:center;
+
+}
+
+
+.portfolio-text{
+
+ width:100%;
+
+}
+
+
+.portfolio-projects{
+
+ grid-template-columns:1fr;
+
+}
+
+
+}
+.portfolio-project-section{
+
+  max-width:1200px;
+
+  margin:60px auto;
+
+  background:white;
+
+  padding:40px;
+
+  border-radius:25px;
+
+  box-shadow:0 15px 35px rgba(0,0,0,0.08);
+
+}
+
+
+.portfolio-project-section h2{
+
+  color:#1e40af;
+
+  font-size:32px;
+
+  margin-bottom:30px;
+
+}
